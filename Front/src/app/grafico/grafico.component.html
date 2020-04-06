@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <select class="form-control" (change)="onChange($event.target.value)">
+            <option *ngFor="let capital of capitais" name="capt">
+                {{capital}}
+            </option>
+        </select>
+    </div>
+    <div class="col-md-4">
+    </div>
+</div>
+<div style="padding-top: 1em;" class="col-12 d-flex justify-content-center">
+<div id="container"></div>
+</div>

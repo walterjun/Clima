@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClimaAqui.Dominio\ClimaAqui.Dominio.csproj" />
+    <ProjectReference Include="..\ClimaAqui.Infra\ClimaAqui.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
